@@ -1,0 +1,66 @@
+name: moneymap
+description: A flexible budget management app to track expenses, incomes, categories, budgets, and analytics.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Database
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  path_provider: ^2.1.3
+
+  # UI & Material
+  flutter_colorpicker: ^1.0.3
+
+  # Charts & visualization
+  fl_chart: ^0.63.0
+
+  # Notifications
+  flutter_local_notifications: ^16.1.0
+  timezone: ^0.9.2
+
+  # File system and sharing for export/import
+  share: ^2.0.4
+
+  # Firebase for optional cloud sync
+  firebase_core: ^2.28.0
+  cloud_firestore: ^4.12.0
+
+  # (Optionally add authentication if you want user accounts)
+  # firebase_auth: ^4.13.0
+
+  # Additional
+  intl: ^0.19.0 # For date formatting, if used
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # If you add any custom fonts or icons:
+  # assets:
+  #   - assets/icons/
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+
+# Optional: If you use Firebase CLI for initialization
+# flutterfire:
+#   ...
+
+# Helpful metadata
+repository: https://github.com/your-github/moneymap
+author: Your Name <your.email@example.com>
+homepage: https://yourportfolio.example.com
